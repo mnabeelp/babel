@@ -57,20 +57,20 @@
     source-map "^0.5.0"
 
 "@babel/eslint-config-internal@link:./eslint/babel-eslint-config-internal":
-  version "0.0.0"
-  uid ""
+  version "7.10.4"
 
 "@babel/eslint-parser@link:./eslint/babel-eslint-parser":
-  version "0.0.0"
-  uid ""
+  version "7.10.4"
+  dependencies:
+    eslint-scope "5.0.0"
+    eslint-visitor-keys "^1.1.0"
+    semver "^6.3.0"
 
 "@babel/eslint-plugin-development-internal@link:./eslint/babel-eslint-plugin-development-internal":
-  version "0.0.0"
-  uid ""
+  version "7.10.4"
 
 "@babel/eslint-plugin-development@link:./eslint/babel-eslint-plugin-development":
-  version "0.0.0"
-  uid ""
+  version "7.10.4"
 
 "@babel/generator@^7.10.4", "@babel/generator@^7.4.0":
   version "7.10.4"
@@ -6552,9 +6552,9 @@ jest@^24.9.0:
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
 js-yaml@^3.13.1, js-yaml@^3.2.1:
-  version "3.13.1"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
-  integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
+  version "3.15.2"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.15.2.tgz#3f83823ac6be17f570f23b2ecdef3777ff5ea364"
+  integrity sha512-6EuL879VkRA+1Cz578mKMiKvjPNEuk6+r1JaFzoSWejZmtf7xWbIyw1e3KkxlkzTIt9Taw6JBhEppG7utc1P+w==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
