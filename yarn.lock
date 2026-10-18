@@ -57,20 +57,20 @@
     source-map "^0.5.0"
 
 "@babel/eslint-config-internal@link:./eslint/babel-eslint-config-internal":
-  version "0.0.0"
-  uid ""
+  version "7.10.4"
 
 "@babel/eslint-parser@link:./eslint/babel-eslint-parser":
-  version "0.0.0"
-  uid ""
+  version "7.10.4"
+  dependencies:
+    eslint-scope "5.0.0"
+    eslint-visitor-keys "^1.1.0"
+    semver "^6.3.0"
 
 "@babel/eslint-plugin-development-internal@link:./eslint/babel-eslint-plugin-development-internal":
-  version "0.0.0"
-  uid ""
+  version "7.10.4"
 
 "@babel/eslint-plugin-development@link:./eslint/babel-eslint-plugin-development":
-  version "0.0.0"
-  uid ""
+  version "7.10.4"
 
 "@babel/generator@^7.10.4", "@babel/generator@^7.4.0":
   version "7.10.4"
@@ -9519,9 +9519,9 @@ shebang-regex@^3.0.0:
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
 shell-quote@^1.6.1:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.2.tgz#67a7d02c76c9da24f99d20808fcaded0e0e04be2"
-  integrity sha512-mRz/m/JVscCrkMyPqHc/bczi3OQHkLTqXHEFu0zDhK/qfv3UcOA4SVmRCLmos4bhjr9ekVQubj/R7waKapmiQg==
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.12.0.tgz#e98fdfd2e921d8a58ae2820f4fc0f75c39f09675"
+  integrity sha512-PcByqNyT/38F2kDNi006HAMRJaULuBzq/FOsw3qdZvX/GA9W/jamDaRskgHjubHiftXK5sIFxLNkvrXUwcof6Q==
 
 shellwords@^0.1.1:
   version "0.1.1"
